@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.css"
 
 function App() {
   return (
@@ -8,19 +8,13 @@ function App() {
           <div className="bg-gray-200 px-4 py-4">
             <div className="w-full md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between">
               <div>
-                <a
-                  href="#"
-                  className="inline-block py-2 text-gray-800 text-2xl font-bold"
-                >
+                <a href="#" className="inline-block py-2 text-gray-800 text-2xl font-bold">
                   Stats.
                 </a>
               </div>
               <div>
                 <div className="hidden md:block">
-                  <a
-                    href="#"
-                    className="inline-block py-1 md:py-4 text-gray-600 mr-6 font-bold"
-                  >
+                  <a href="#" className="inline-block py-1 md:py-4 text-gray-600 mr-6 font-bold">
                     How it Works
                   </a>
                   <a
@@ -66,8 +60,7 @@ function App() {
                   A simple and smart tool that will help grow your business{" "}
                 </h1>
                 <p className="text-gray-600 md:text-xl md:px-18">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit
-                  hello.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit hello.
                 </p>
                 <div className="hidden md:block h-40 w-40 rounded-full bg-blue-800 absolute right-0 bottom-0 -mb-64 -mr-48"></div>
                 <div className="hidden md:block h-5 w-5 rounded-full bg-yellow-500 absolute top-0 right-0 -mr-40 mt-32"></div>
@@ -88,26 +81,26 @@ function App() {
             className="max-w-4xl mx-auto bg-white shadow-lg relative z-20 hidden md:block"
             style={{
               marginTop: "-320px",
-              borderRadius: "20px",
+              borderRadius: "20px"
             }}
           >
             <div
               className="h-20 w-20 rounded-full bg-yellow-500 absolute top-0 left-0 -ml-10 -mt-10"
               style={{
-                zIndex: -1,
+                zIndex: -1
               }}
             ></div>
             <div
               className="h-5 w-5 rounded-full bg-blue-500 absolute top-0 left-0 -ml-32 mt-12"
               style={{
-                zIndex: -1,
+                zIndex: -1
               }}
             ></div>
             <div className="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
             <div
               className="flex"
               style={{
-                height: "550px",
+                height: "550px"
               }}
             >
               <div className="w-32 bg-gray-200 p-6 overflow-hidden rounded-bl-lg">
@@ -207,12 +200,7 @@ function App() {
                   <div className="w-1/3 px-4">
                     <div className="rounded-lg shadow-lg p-6">
                       <div className="block w-12 h-2 rounded-full bg-gray-200 mb-6"></div>
-                      <svg
-                        height="150"
-                        width="150"
-                        viewBox="0 0 20 20"
-                        className="mx-auto mb-12"
-                      >
+                      <svg height="150" width="150" viewBox="0 0 20 20" className="mx-auto mb-12">
                         <circle r="10" cx="10" cy="10" fill="#4299e1" />
                         <circle
                           r="5"
@@ -262,7 +250,7 @@ function App() {
             <div
               className="-mt-10 max-w-4xl mx-auto bg-white shadow-lg relative z-20"
               style={{
-                borderRadius: "20px",
+                borderRadius: "20px"
               }}
             >
               <div className="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
@@ -321,12 +309,7 @@ function App() {
                       <div className="rounded-lg shadow px-2 py-2">
                         <div className="block w-8 h-2 rounded-full bg-gray-200 mb-2"></div>
                         <div className="mb-2">
-                          <svg
-                            height="50"
-                            width="50"
-                            viewBox="0 0 20 20"
-                            className="mx-auto"
-                          >
+                          <svg height="50" width="50" viewBox="0 0 20 20" className="mx-auto">
                             <circle r="10" cx="10" cy="10" fill="#ddd" />
                             <circle
                               r="5"
@@ -423,7 +406,7 @@ function App() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
