@@ -18,7 +18,27 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Absolute Paths */
+    "baseUrl": "./src/",
+    "paths": {
+        "@shared/*": [
+            "app/shared/*"
+        ],
+        "@pages/*": [
+            "app/pages/*"
+        ],
+        "@layouts/*": [
+            "app/layouts/*"
+        ],
+        "@routes": [
+            "app/routes"
+        ],
+        "@routes/*": [
+            "app/routes/*"
+        ],
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
