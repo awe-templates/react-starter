@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Error404: React.FC = () => {
   return (
@@ -14,9 +15,11 @@ export const Error404: React.FC = () => {
                 Sorry about that! Please visit our hompage to get where you need
                 to go.
               </p>
-              <button className="px-8 py-4 my-2 text-center text-white bg-indigo-600 border rounded sm:w-full lg:w-auto md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">
-                Take me there!
-              </button>
+              <Link to="/">
+                <button className="px-8 py-4 my-2 text-center text-white bg-indigo-600 border rounded sm:w-full lg:w-auto md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">
+                  Take me there!
+                </button>
+              </Link>
             </div>
           </div>
 

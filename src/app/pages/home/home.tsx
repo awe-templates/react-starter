@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Home: React.FC = () => {
   return (
@@ -43,18 +44,18 @@ export const Home: React.FC = () => {
               </div>
             </div>
             <div className="hidden md:block">
-              <a
-                href="#"
+              <Link
+                to="/auth/login"
                 className="inline-block py-1 mr-6 text-gray-500 md:py-4 hover:text-gray-600"
               >
                 Login
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/asdasd"
                 className="inline-block px-4 py-2 text-gray-700 bg-white rounded-lg hover:bg-gray-100"
               >
                 Start a free trial
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -77,7 +78,7 @@ export const Home: React.FC = () => {
             viewBox="0 0 1440 320"
           >
             <path
-              fill-opacity="1"
+              fillOpacity="1"
               d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
             ></path>
           </svg>
@@ -218,8 +219,8 @@ export const Home: React.FC = () => {
                         cy="10"
                         fill="transparent"
                         stroke="#2b6cb0"
-                        stroke-width="10"
-                        stroke-dasharray="11 31.4"
+                        strokeWidth="10"
+                        strokeDasharray="11 31.4"
                         transform="rotate(-90) translate(-20)"
                       />
                     </svg>
@@ -332,8 +333,8 @@ export const Home: React.FC = () => {
                             cy="10"
                             fill="transparent"
                             stroke="#eee"
-                            stroke-width="10"
-                            stroke-dasharray="11 31.4"
+                            strokeWidth="10"
+                            strokeDasharray="11 31.4"
                             transform="rotate(-90) translate(-20)"
                           />
                         </svg>
