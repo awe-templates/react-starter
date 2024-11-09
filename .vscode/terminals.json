@@ -11,14 +11,6 @@
 			"recycle": true,
 			"commands": ["npm run dev"],
 			"color": "terminal.ansiGreen"
-		},
-		{
-			"name": "React Server Free Terminal",
-			"description": "Empty React Terminal",
-			"focus": true,
-			"execute": false,
-			"recycle": true,
-			"color": "terminal.ansiGreen"
 		}
 	]
 }
