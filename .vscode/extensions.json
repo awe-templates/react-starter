@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "naumovs.color-highlight",
+        "fabiospampinato.vscode-terminals",
+        "sonarsource.sonarlint-vscode"
+    ]
+}
