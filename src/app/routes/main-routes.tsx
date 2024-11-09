@@ -1,23 +1,23 @@
-import { Login } from "../pages/auth/login"
-import { Home } from "../pages/home/home"
-import { Error404 } from "../pages/error/error-404"
-import AuthLayout from "../layouts/auth/layout"
-import MainLayout from "../layouts/main/layout"
+import { Login } from '../pages/auth/login';
+import { Home } from '../pages/home/home';
+import { Error404 } from '../pages/error/error-404';
+import AuthLayout from '../layouts/auth/layout';
+import MainLayout from '../layouts/main/layout';
 
 export const mainRouteList = [
   {
-    path: "/",
+    path: '/',
     component: Home,
-    layout: MainLayout
+    layout: MainLayout,
   },
   {
-    path: "/auth/login",
+    path: '/auth/login',
     component: Login,
-    layout: AuthLayout
+    layout: AuthLayout,
   },
   {
-    path: "*",
+    path: '*',
     component: Error404,
-    layout: AuthLayout
-  }
-]
+    layout: AuthLayout,
+  },
+];

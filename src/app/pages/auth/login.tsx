@@ -1,11 +1,9 @@
-import React from "react"
+import React from 'react';
 
-interface LoginProps {}
-
-export const Login: React.FC<LoginProps> = () => {
+export const Login: React.FC = () => {
   return (
     <div className="flex flex-row">
       <h1>Login</h1>
     </div>
-  )
-}
+  );
+};

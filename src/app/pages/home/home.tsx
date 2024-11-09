@@ -1,21 +1,25 @@
-import React from "react"
+import React from 'react';
 
-interface HomeProps {}
-
-export const Home: React.FC<HomeProps> = () => {
+export const Home: React.FC = () => {
   return (
     <div className="flex flex-col w-full min-h-screen font-sans bg-white">
       <div>
         <div className="px-4 py-4 bg-gray-200">
           <div className="w-full md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between">
             <div>
-              <a href="#" className="inline-block py-2 text-2xl font-bold text-gray-800">
+              <a
+                href="#"
+                className="inline-block py-2 text-2xl font-bold text-gray-800"
+              >
                 Stats.
               </a>
             </div>
             <div>
               <div className="hidden md:block">
-                <a href="#" className="inline-block py-1 mr-6 font-bold text-gray-600 md:py-4">
+                <a
+                  href="#"
+                  className="inline-block py-1 mr-6 font-bold text-gray-600 md:py-4"
+                >
                   How it Works
                 </a>
                 <a
@@ -58,7 +62,7 @@ export const Home: React.FC<HomeProps> = () => {
           <div className="px-4 py-16">
             <div className="relative w-full text-center md:max-w-2xl md:mx-auto">
               <h1 className="mb-6 text-xl font-bold leading-tight text-gray-700 sm:text-2xl md:text-5xl">
-                A simple and smart tool that will help grow your business{" "}
+                A simple and smart tool that will help grow your business{' '}
               </h1>
               <p className="text-gray-600 md:text-xl md:px-18">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit hello.
@@ -81,27 +85,27 @@ export const Home: React.FC<HomeProps> = () => {
         <div
           className="relative z-20 hidden max-w-4xl mx-auto bg-white shadow-lg md:block"
           style={{
-            marginTop: "-320px",
-            borderRadius: "20px"
+            marginTop: '-320px',
+            borderRadius: '20px',
           }}
         >
           <div
             className="absolute top-0 left-0 w-20 h-20 -mt-10 -ml-10 bg-yellow-500 rounded-full"
             style={{
-              zIndex: -1
+              zIndex: -1,
             }}
           ></div>
           <div
             className="absolute top-0 left-0 w-5 h-5 mt-12 -ml-32 bg-blue-500 rounded-full"
             style={{
-              zIndex: -1
+              zIndex: -1,
             }}
           ></div>
           <div className="h-10 bg-white border-b border-gray-100 rounded-t-lg"></div>
           <div
             className="flex"
             style={{
-              height: "550px"
+              height: '550px',
             }}
           >
             <div className="w-32 p-6 overflow-hidden bg-gray-200 rounded-bl-lg">
@@ -201,7 +205,12 @@ export const Home: React.FC<HomeProps> = () => {
                 <div className="w-1/3 px-4">
                   <div className="p-6 rounded-lg shadow-lg">
                     <div className="block w-12 h-2 mb-6 bg-gray-200 rounded-full"></div>
-                    <svg height="150" width="150" viewBox="0 0 20 20" className="mx-auto mb-12">
+                    <svg
+                      height="150"
+                      width="150"
+                      viewBox="0 0 20 20"
+                      className="mx-auto mb-12"
+                    >
                       <circle r="10" cx="10" cy="10" fill="#4299e1" />
                       <circle
                         r="5"
@@ -251,11 +260,11 @@ export const Home: React.FC<HomeProps> = () => {
           <div
             className="relative z-20 max-w-4xl mx-auto -mt-10 bg-white shadow-lg"
             style={{
-              borderRadius: "20px"
+              borderRadius: '20px',
             }}
           >
             <div className="h-10 bg-white border-b border-gray-100 rounded-t-lg"></div>
-            <div className="flex" style={{ height: "340px" }}>
+            <div className="flex" style={{ height: '340px' }}>
               <div className="w-16 px-2 py-6 overflow-hidden bg-gray-200 rounded-bl-lg">
                 <div className="mb-6 text-center">
                   <div className="w-4 h-4 mx-auto mb-2 bg-blue-800 rounded-full"></div>
@@ -310,7 +319,12 @@ export const Home: React.FC<HomeProps> = () => {
                     <div className="px-2 py-2 rounded-lg shadow">
                       <div className="block w-8 h-2 mb-2 bg-gray-200 rounded-full"></div>
                       <div className="mb-2">
-                        <svg height="50" width="50" viewBox="0 0 20 20" className="mx-auto">
+                        <svg
+                          height="50"
+                          width="50"
+                          viewBox="0 0 20 20"
+                          className="mx-auto"
+                        >
                           <circle r="10" cx="10" cy="10" fill="#ddd" />
                           <circle
                             r="5"
@@ -387,7 +401,7 @@ export const Home: React.FC<HomeProps> = () => {
           </div>
         </div>
         <p className="p-4 mt-10 text-center text-gray-600">
-          Created by{" "}
+          Created by{' '}
           <a
             className="text-blue-500 border-b"
             href="https://twitter.com/mithicher"
@@ -395,7 +409,7 @@ export const Home: React.FC<HomeProps> = () => {
           >
             @mithicher
           </a>
-          . Inspired by dribble shot{" "}
+          . Inspired by dribble shot{' '}
           <a
             href="https://dribbble.com/shots/8807920-Quickpay-Hero-section/attachments/1015863"
             target="_blank"
@@ -406,5 +420,5 @@ export const Home: React.FC<HomeProps> = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};

@@ -1,8 +1,6 @@
-import React from "react"
+import React from 'react';
 
-interface Error404Props {}
-
-export const Error404: React.FC<Error404Props> = () => {
+export const Error404: React.FC = () => {
   return (
     <div className="flex flex-col-reverse items-center justify-center gap-16 px-4 py-24 lg:px-24 lg:py-24 md:py-20 md:px-44 lg:flex-row md:gap-28">
       <div className="relative w-full pb-12 xl:pt-24 xl:w-1/2 lg:pb-0">
@@ -13,7 +11,8 @@ export const Error404: React.FC<Error404Props> = () => {
                 Looks like you've found the doorway to the great nothing
               </h1>
               <p className="my-2 text-gray-800">
-                Sorry about that! Please visit our hompage to get where you need to go.
+                Sorry about that! Please visit our hompage to get where you need
+                to go.
               </p>
               <button className="px-8 py-4 my-2 text-center text-white bg-indigo-600 border rounded sm:w-full lg:w-auto md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">
                 Take me there!
@@ -31,5 +30,5 @@ export const Error404: React.FC<Error404Props> = () => {
         <img src="https://i.ibb.co/ck1SGFJ/Group.png" />
       </div>
     </div>
-  )
-}
+  );
+};
