@@ -4,7 +4,7 @@
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
     "eslint.format.enable": true,
-    "[vue]": {
+    "[tsx]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
